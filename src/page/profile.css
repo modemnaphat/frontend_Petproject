@@ -1,0 +1,49 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 150px; /* ปรับขนาดตามต้องการ */
+    height: 150px; /* ปรับขนาดตามต้องการ */
+    border-radius: 50%; /* ทำให้ภาพเป็นวงกลม */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: #dbdbdb solid 5px;
+    
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-input,
+  .profile-textarea {
+    width: 250px; /* ปรับขนาดตามต้องการ */
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-input::placeholder,
+  .profile-textarea::placeholder {
+    color: #aaa; /* สีข้อความ placeholder */
+  }
+  
+  .profile-input:focus,
+  .profile-textarea:focus {
+    outline: none;
+    border-color: #007bff; /* สีขอบเมื่อได้รับการเลือก */
+  }
+
+
+  .save {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
